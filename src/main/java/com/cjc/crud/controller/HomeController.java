@@ -14,7 +14,13 @@ public class HomeController
 	
 	@Autowired
 	HomeService hs;
-
+//dummy
+       @RequestMapping("/log")
+	public String prelogin()
+	{
+		System.out.println("This is Pre Login Process");
+		return "login";
+	}
 	@RequestMapping("/log")
 	public String prelogin()
 	{
