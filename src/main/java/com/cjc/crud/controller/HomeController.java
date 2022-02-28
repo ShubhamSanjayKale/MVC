@@ -14,7 +14,7 @@ public class HomeController
 	
 	@Autowired
 	HomeService hs;
-//dummy
+//dummyY
        @RequestMapping("/log")
 	public String prelogin()
 	{
